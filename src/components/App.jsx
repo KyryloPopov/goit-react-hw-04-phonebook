@@ -36,7 +36,6 @@ export const App = () => {
 
   const handleChangeFilter = event => {
     const value = event.target.value;
-    this.setState({ filter: value });
     setFilter(value);
   };
 
